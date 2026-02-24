@@ -11,6 +11,7 @@ function App() {
   //useRef hook
   const passwordRef = useRef(null)
 
+  //useCallback hook
   const passwordGenerator = useCallback(()=>{
     let pass=""
     let str="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -26,12 +27,14 @@ function App() {
     setPassword(pass)
   },[length,numAllow,charAllow,setPassword])
 
+  //useCallback hook
   const copyPasswordToClipboard = useCallback(()=>{
     passwordRef.current?.select()
     passwordRef.current?.setSelectionRange(0,9999)
     window.navigator.clipboard.writeText(password)
   },[password])
 
+  //useEffect hook
   useEffect(()=>{
     passwordGenerator()
   },[length,numAllow,charAllow,passwordGenerator])
