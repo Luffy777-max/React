@@ -1,6 +1,6 @@
 import { useState,useCallback,useEffect,useRef } from 'react'
 import './App.css'
-
+//learned hooks - useState, useEffect, useRef, useCallback
 
 function App() {
   const [length, setLength] = useState(8)
