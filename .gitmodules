@@ -4,3 +4,6 @@
 [submodule "07reactRouter"]
 	path = 07reactRouter
 	url = https://github.com/Luffy777-max/React-Router.git
+[submodule "08miniContext"]
+	path = 08miniContext
+	url = https://github.com/Luffy777-max/miniContext.git
