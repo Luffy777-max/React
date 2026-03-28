@@ -7,3 +7,6 @@
 [submodule "08miniContext"]
 	path = 08miniContext
 	url = https://github.com/Luffy777-max/miniContext.git
+[submodule "10todocontectLocal"]
+	path = 10todocontectLocal
+	url = https://github.com/Luffy777-max/10TodoContextLocal.git
