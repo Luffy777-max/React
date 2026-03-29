@@ -10,3 +10,6 @@
 [submodule "10todocontectLocal"]
 	path = 10todocontectLocal
 	url = https://github.com/Luffy777-max/10TodoContextLocal.git
+[submodule "ReduxToolkitTodo"]
+	path = ReduxToolkitTodo
+	url = https://github.com/Luffy777-max/Redux-Toolkit-Todo.git
